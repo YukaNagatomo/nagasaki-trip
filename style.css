@@ -47,10 +47,10 @@ section h1 {
   -webkit- transform: translateY(-50%) translateX(-50%);
   font-family: "HeavyTrip";
   letter-spacing: 1px;
-  font-size: 120px;
-  color: #222;
-  line-height: 200px;
-  text-shadow: 6px 6px 8px #fff;
+  font-size: 160px;
+  color: #fff;
+  line-height: 180px;
+  text-shadow: 6px 6px 8px #222;
 }
 
 table {
