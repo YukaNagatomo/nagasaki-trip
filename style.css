@@ -33,7 +33,7 @@ section h1 {
 #top {
   height: 100vh;
   position: relative;
-  background-image: url(top2.jpeg);
+  background-image: url(top.jpeg);
   background-size: cover;
   background-position: center center;
 }
@@ -46,10 +46,11 @@ section h1 {
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
   font-family: "HeavyTrip";
-  letter-spacing: 2px;
-  font-size: 130px;
-  color: #000;
+  letter-spacing: 1px;
+  font-size: 120px;
+  color: #222;
   line-height: 200px;
+  text-shadow: 6px 6px 8px #fff;
 }
 
 table {
@@ -75,16 +76,16 @@ table span {
 }
 
 #day1 {
-  background-color: #879E46;
+  background-color: #FEB396;
   padding: 70px 0;
 }
 
 #day2 {
-  background-color: #FEBD3D;
+  background-color: #AED4D5;
   padding: 70px 0;
 }
 
 #day3 {
-  background-color: #E57B87;
+  background-color: #F9CC88;
   padding: 70px 0;
 }
