@@ -73,15 +73,17 @@ table span {
   font-size: 12px;
 }
 
-#day1{
+#day1 {
   background-color: #879E46;
   padding: 70px 0;
 }
-#day2{
+
+#day2 {
   background-color: #FEBD3D;
   padding: 70px 0;
 }
-#day3{
+
+#day3 {
   background-color: #E57B87;
   padding: 70px 0;
 }
