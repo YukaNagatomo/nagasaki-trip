@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: "HeavyTrip";
-  src: url(../HeavyTrip.ttf) format("truetype");
+  font-family: "timeforsalad";
+  src: url(../timeforsalad.ttf) format("truetype");
 }
 
 body {
@@ -34,6 +34,8 @@ section h1 {
   height: 100vh;
   position: relative;
   background-image: url(top.jpeg);
+  background-color: #999;
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
 }
@@ -45,11 +47,11 @@ section h1 {
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  font-family: "HeavyTrip";
-  letter-spacing: 1px;
+  font-family: "timeforsalad";
+  letter-spacing: 2px;
   font-size: 160px;
   color: #fff;
-  line-height: 180px;
+  line-height: 200px;
   text-shadow: 6px 6px 8px #222;
 }
 
