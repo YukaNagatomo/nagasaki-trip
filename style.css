@@ -47,9 +47,9 @@ section h1 {
   -webkit- transform: translateY(-50%) translateX(-50%);
   font-family: "HeavyTrip";
   letter-spacing: 2px;
-  font-size: 150px;
+  font-size: 130px;
   color: #000;
-  line-height: 250px;
+  line-height: 200px;
 }
 
 table {
