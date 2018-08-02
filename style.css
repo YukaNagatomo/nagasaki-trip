@@ -33,7 +33,6 @@ section h1 {
 section a{
   color: #fff;
   font-size: 45px;
-  font-family: YuGothic, 'Yu Gothic', 'sans-serif';
 }
 
 #top {
@@ -53,7 +52,7 @@ section a{
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  font-family: "timeforsalad", 'sans-serif';
+  font-family: "timeforsalad";
   letter-spacing: 2px;
   font-size: 160px;
   color: #fff;
@@ -72,7 +71,6 @@ td {
   font-size: 35px;
   vertical-align: text-bottom;
   font-weight: bold;
-  font-family: YuGothic, 'Yu Gothic', 'sans-serif';
 }
 
 .date {
