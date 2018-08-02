@@ -15,7 +15,7 @@
 
 body {
   min-width: 750px;
-  font-family: YuGothic, 'Yu Gothic';
+  font-family: YuGothic, 'Yu Gothic', 'sans-serif';
 }
 
 section {
