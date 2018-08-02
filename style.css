@@ -15,7 +15,7 @@
 
 body {
   min-width: 750px;
-  font-family: YuGothic, 'Yu Gothic', 'sans-serif';
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro", "メイリオ", sans-serif;
 }
 
 section {
@@ -30,7 +30,7 @@ section h1 {
   letter-spacing: 2px;
 }
 
-section a{
+section a {
   color: #fff;
   font-size: 45px;
 }
@@ -58,6 +58,7 @@ section a{
   color: #fff;
   line-height: 200px;
   text-shadow: 6px 6px 8px #222;
+  font-weight: normal;
 }
 
 table {
