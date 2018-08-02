@@ -14,25 +14,7 @@
 }
 
 body {
-  min-width: 750px;
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro", "メイリオ", sans-serif;
-}
-
-section {
-  text-align: center;
-  color: #fff;
-}
-
-section h1 {
-  padding: 30px 0;
-  font-size: 70px;
-  font-family: "Brandon_bld";
-  letter-spacing: 2px;
-}
-
-section a {
-  color: #fff;
-  font-size: 45px;
 }
 
 #top {
@@ -54,11 +36,29 @@ section a {
   -webkit- transform: translateY(-50%) translateX(-50%);
   font-family: "timeforsalad";
   letter-spacing: 2px;
-  font-size: 160px;
+  font-size: 170px;
   color: #fff;
   line-height: 200px;
   text-shadow: 6px 6px 8px #222;
   font-weight: normal;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  color: #fff;
+}
+
+section h1 {
+  padding: 30px 0;
+  font-size: 70px;
+  font-family: "Brandon_bld";
+  letter-spacing: 2px;
+}
+
+section a {
+  color: #fff;
+  font-size: 45px;
 }
 
 table {
@@ -79,6 +79,7 @@ td {
   width: 250px;
   font-family: "Brandon_bld";
   font-weight: normal;
+  font-size: 37px;
 }
 
 table span {
@@ -99,4 +100,30 @@ table span {
 #day3 {
   background-color: #F9CC88;
   padding: 70px 0;
+}
+
+@media screen and (min-width: 1000px) {
+  #top h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  section a {
+    font-size: 30px;
+  }
+  table {
+    width: 860px;
+  }
+  td {
+    font-size: 20px;
+    vertical-align: text-bottom;
+    font-weight: bold;
+  }
+  .date {
+    font-size: 22px;
+  }
+
+  table span {
+    color: #000;
+    font-size: 12px;
+  }
 }
